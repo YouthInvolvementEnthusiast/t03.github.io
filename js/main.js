@@ -9,7 +9,7 @@ function framed () {
 if (framed()) {
     console.log("in iframe");
 } else {
-    console.log("NOT in iframe");
+    window.location.replace("https://sites.google.com/view/hkvsc2024e2-t03/");
 }
 
 (function ($) {
