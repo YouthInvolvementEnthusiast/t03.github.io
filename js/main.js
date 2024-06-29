@@ -7,9 +7,9 @@ function framed () {
 }
 
 if (framed()) {
-    alert("youre in an iframe!");
+    console.log("in iframe");
 } else {
-    alert("you're NOT in an iframe!");
+    console.log("NOT in iframe");
 }
 
 (function ($) {
