@@ -9,8 +9,7 @@ function framed () {
 if (framed()) {
     console.log("in iframe");
 } else {
-    alert("remind me to renable the redirect thing")
-//    window.location.replace("https://sites.google.com/view/hkvsc2024e2-t03/");
+    window.location.replace("https://sites.google.com/view/hkvsc2024e2-t03/");
 }
 
 (function ($) {
