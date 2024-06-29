@@ -168,7 +168,7 @@
         position: relative;
         min-height: 500px;
     }
-    
+
     .header-carousel .owl-carousel-item img {
         position: absolute;
         width: 100%;
@@ -212,6 +212,8 @@
     font-size: 22px;
     transition: .5s;
 }
+
+
 
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
@@ -469,6 +471,11 @@
     padding: 25px 0;
     font-size: 15px;
     border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+/* yeah i dont really care about readability at this point */
+p {
+    font-size: 20px;
 }
 
 .footer .copyright a {
