@@ -481,3 +481,5 @@ p {
 .footer .copyright a {
     color: var(--light);
 }
+
+#watermark {position: fixed; right: 0; bottom: 0; z-index: 69420; opacity: 0.5;}
