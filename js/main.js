@@ -1,3 +1,17 @@
+function framed () {
+    try {
+        return window.self !== window.top;
+    } catch (e) {
+        return true;
+    }
+}
+
+if (framed()) {
+    alert("youre in an iframe!");
+} else {
+    alert("you're NOT in an iframe!");
+}
+
 (function ($) {
     "use strict";
 
